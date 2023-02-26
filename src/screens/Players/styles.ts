@@ -6,3 +6,20 @@ export const Container = styled.View`
 
     padding: 24px;
 `
+export const Form = styled.View`
+    width: 100%;
+    background-color: ${({theme}) => theme.COLORS.GRAY_700};
+
+    flex-direction: row;
+    justify-content: center;
+
+    border-radius: 6px;
+`
+export const HeaderList = styled.View`
+    width: 100%;
+
+    flex-direction: row;
+    align-items: center;
+
+    margin: 32px 0 12px;
+`
