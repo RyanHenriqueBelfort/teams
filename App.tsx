@@ -6,7 +6,7 @@ import { Loading } from '@components/Loading';
 
 import theme from './src/theme';
 
-import { NewGroup } from '@screens/NewGroup';
+import { Players } from '@screens/Players';
 
 export default function App() {
   const [ fontsLoaded ] = useFonts({ Roboto_400Regular, Roboto_700Bold})
@@ -14,7 +14,7 @@ export default function App() {
   return (
     <ThemeProvider theme={theme}>
       <StatusBar style='light' translucent/>
-      {fontsLoaded ? <NewGroup /> : <Loading />}
+      {fontsLoaded ? <Players /> : <Loading />}
     </ThemeProvider>
   )
 };
