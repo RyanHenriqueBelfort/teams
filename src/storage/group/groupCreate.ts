@@ -10,7 +10,7 @@ export async function groupCreate(newGroup: string){
         const groupsAlreadyExists = storedGroups.includes(newGroup)
 
         if(groupsAlreadyExists){
-            throw new AppError('Grupo já cadastrado')
+            throw new AppError('Já existe um grupo já cadastrado com esse nome')
         }
 
         const storage = JSON.stringify([...storedGroups, newGroup])
