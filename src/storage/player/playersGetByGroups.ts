@@ -18,5 +18,4 @@ export async function playersGetByGroups(group: string){
     }catch(error) {
         throw error
     }
-
 }
