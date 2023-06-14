@@ -12,3 +12,7 @@ No App você pode:
 . Remover uma pessoa
 . Excluir o Time criado
 
+
+
+https://github.com/RyanHenriqueBelfort/teams/assets/70604408/7450a19f-ce94-43e8-9e55-f354c346f25c
+
