@@ -123,7 +123,6 @@ export function Players() {
           autoCorrect={false}
           onChangeText={setNewPlayerName}
           value={newPlayerName}
-          onEndEditing={handleAddPlayer}
           returnKeyType="done"
         />
 
